@@ -1,2 +1,2 @@
 http://www.vicaretechnologies.com/index.html
-My first Freelancing Project Website of Ups Batteries that i created for my client
+My first Freelancing Project of Ups & Batteries Website that i created for my client
