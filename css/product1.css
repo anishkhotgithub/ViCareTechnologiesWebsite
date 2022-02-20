@@ -1,0 +1,150 @@
+.accordion .card {
+	color: black;
+	border: 2px solid #dddddd;
+    border-radius: 15px;
+}
+.accordion .card a {
+	color: #fff;
+	text-decoration: none;				
+}
+.accordion .card-header {
+    /* background: linear-gradient(to right,#000000,#434343); */
+    background-color:#1a2980;
+	padding: .75rem 1rem;
+	position: relative;
+}
+.accordion .card-header:hover {
+	background: #1a2980;
+}
+
+.accordion .card-header h2 {
+	font-size: 1rem;
+}
+.accordion .fa {
+	width: 20px;
+	margin-right: .15rem;
+}
+.accordion .card-header a {
+	float: left;
+	width: 100%;
+	cursor: pointer;
+    font-weight: 900;
+}
+.accordion .toggle {
+	font-size: .8rem;
+	line-height: .8rem;
+	cursor: pointer;
+	opacity: 0.7;
+	position: absolute;
+	right: 16px;
+	top: 16px;
+	width: 14px;
+	margin: 0;
+}
+.accordion .toggle:hover {
+	opacity: 1;
+}
+.accordion .card-body {
+	padding: 0;
+}
+.accordion .list-group-item {				
+	border-radius: 0;
+	border-width: 1px 0 1px 0;
+	padding-left: 30px;
+	background: #fff;
+	font-weight: 500;
+}
+.accordion .list-group-item:hover {
+	background:#1CB5E0;
+}
+.accordion .list-group-item:hover a {
+	color: black !important;
+}
+.accordion .list-group-item:hover .badge{
+	background: black;
+	color: #007bff;
+}
+.accordion .list-group-item a {
+	color: black;
+	display: block;
+}
+.accordion .list-group-item .badge {
+	float: right;
+	min-width: 36px;
+}
+.accordion .rotate{
+	transform: rotate(180deg); 
+}
+
+.mt-50 {
+    margin-top: 1px
+}
+
+.mb-50 {
+    margin-bottom: 50px
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .1875rem
+}
+
+.card-img-actions {
+    position: relative
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center
+}
+
+.card-img {
+    width: 200px
+}
+
+.star {
+    color: red
+}
+.card {
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, #ffff 50%, #62cbf7 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.card:hover {
+    background-position: left;
+}
+
+.bg-cart {
+    background-color: orange;
+    color: #fff
+}
+
+.bg-cart:hover {
+    color: #fff
+}
+
+.bg-buy {
+    background-color: green;
+    color: #fff;
+    padding-right: 29px
+}
+
+.bg-buy:hover {
+    color: #fff
+}
+
+a {
+    text-decoration: none !important
+}

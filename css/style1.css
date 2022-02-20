@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:700&display=swap');
+body {
+    background-color: #ffff
+}
+
+
+.wrapper {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: linear-gradient(to right,#000000,#434343);
+    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
+    transition: 1s all
+}
+
+.navbar-brand {
+    color: #fff;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-bottom: 4px;
+    font-size: 27px
+}
+.navbar-red:hover .wrapper {
+    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%)
+}
+
+.navbar-brand:hover {
+    color: #fff
+}
+
+.navbar-red {
+  background: linear-gradient(to right,  #000046,#1CB5E0);
+    color: #ffff;
+}
+
+.all-show {
+    z-index: 10
+}
+.active-pink-2 input.form-control[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #f48fb1;
+  box-shadow: 0 1px 0 0 #f48fb1;
+}
+
+.card:hover {
+  -ms-transform: scale(0.9); /* IE 9 */
+  -webkit-transform: scale(0.9); /* Safari 3-8 */
+  transform: scale(0.9); 
+}
+.nav-item1
+       {
+         padding: 10px;
+       }
+       #navbar1
+       {
+         height: 45px;
+       }
+       /* #navbar1 {
+        display: none;
+      } */
+      @media (max-width: 575.98px) {
+        #navbar1 {
+          display: none;
+        }
+        img
+        {
+          height: 180px;
+          width: 250;
+        }
+        .navbar-brand
+        {
+            font-size: medium;
+        }
+        #owl-demo .owl-item img
+        {
+          height: 150px;
+          width: 100%;
+        }
+        #VILogo
+        {
+          height: 50px;
+          width: 95px;
+        }
+      }   
+#owl-demo .owl-item {
+  margin: 1px;
+}
+#owl-demo .owl-item img {
+  width: 100%;
+  height: auto;
+}

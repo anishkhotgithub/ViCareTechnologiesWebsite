@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel = "icon" href ="../images/VI tech - Copy.png" type = "image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vi Care Technologies</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+	
+	<link rel="stylesheet" href="../css/style.css">
+	<!-- <link rel="stylesheet" href="css/style1.css"> -->
+	<link rel="stylesheet" href="../css/style2.css">
+	<link rel="stylesheet" href="../css/product1.css">
+	<link rel="stylesheet" href="../css/footer.css">
+	<style>
+
+	</style>
+</head>
+<body class="">	
+	<div class="navigation-wrap start-header start-style" style=" background-color:#40bbfe">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-md navbar-light" style=" background-color:#40bbfe">
+						<a class="navbar-brand" href="../index.html" ><img src="../images/VI tech-transp logo.png" alt=""></a>	
+						
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse mr-5" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto py-4 py-md-0">
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="../index.html">HOME</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown"  href="#" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS & SOLUTION</a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="../products1.html">POWER CONDITIONING PRODUCTS</a>
+										<a class="dropdown-item" href="../battery.html">BATTERY</a>
+										<a class="dropdown-item" href="#">ENERGY OPTIMIZATION SOLUTIONS</a>
+										<a class="dropdown-item" href="#">ELECTRICAL SOLUTIONS</a>
+										<a class="dropdown-item" href="#">Security</a>
+										<a class="dropdown-item" href="#">Data Center Solutions</a>
+										<!-- <a class="dropdown-item" href="#">Another action</a> -->
+									</div>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="../services.html">SERVICES</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="../aboutus.html">ABOUT US</a>
+								</li>
+							
+								<!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="#">Action</a>
+										<a class="dropdown-item" href="#">Another action</a>
+										<a class="dropdown-item" href="#">Something else here</a>
+										<a class="dropdown-item" href="#">Another action</a>
+									</div>
+								</li> -->
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="../clients.html">CLIENTS</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">BRAND</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="../contactus.html">CONTACT US</a>
+								</li>
+							</ul>
+						</div>
+						
+					</nav>		
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		$('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+  if (!$(this).next().hasClass('show')) {
+    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+  }
+  var $subMenu = $(this).next(".dropdown-menu");
+  $subMenu.toggleClass('show');
+
+
+  $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+    $('.dropdown-submenu .show').removeClass("show");
+  });
+  return false;
+});
+	</script>
+	    <script>
+        
+
+			/* Please ❤ this if you like it! */
+			
+			
+			(function($) { "use strict";
+			
+			$(function() {
+				var header = $(".start-style");
+				$(window).scroll(function() {    
+					var scroll = $(window).scrollTop();
+				
+					if (scroll >= 10) {
+						header.removeClass('start-style').addClass("scroll-on");
+					} else {
+						header.removeClass("scroll-on").addClass('start-style');
+					}
+				});
+			});		
+				
+			//Animation
+			
+			$(document).ready(function() {
+				$('body.hero-anime').removeClass('hero-anime');
+			});
+			
+			//Menu On Hover
+				
+			$('body').on('mouseenter mouseleave','.nav-item',function(e){
+					if ($(window).width() > 750) {
+						var _d=$(e.target).closest('.nav-item');_d.addClass('show');
+						setTimeout(function(){
+						_d[_d.is(':hover')?'addClass':'removeClass']('show');
+						},1);
+					}
+			});	
+			
+			//Switch light/dark
+			
+			// $("#switch").on('click', function () {
+			//     if ($("body").hasClass("dark")) {
+			//         $("body").removeClass("dark");
+			//         $("#switch").removeClass("switched");
+			//     }
+			//     else {
+			//         $("body").addClass("dark");
+			//         $("#switch").addClass("switched");
+			//     }
+			// });  
+			
+			})(jQuery); 
+				</script>	
+   <div class="container-fluid" style="margin-top: 130px;">
+    <div id="powermssg1" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0F6199;">
+      <h6 class="ml-3" id="power1" > Products & Solutions <span class="ml-2 mr-2"> > </span> Battery <span class="ml-2 mr-2"> > </span> Tubular Battery </h6>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-3 col-md-12 col-sm-2">
+		<div class="accordion mb-2" id="accordionExample">
+			<div class="card">
+			  <div class="card-header" id="headingOne">
+				<h2 class="mb-0">									
+				  <a data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+					<span><i class="fa fa-comments" style="opacity: -1;"></i> POWER CONDITIONING</span>
+					<i class="fa fa-chevron-down toggle"></i>
+				  </a>
+				</h2>
+			  </div>
+			  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+				<div class="card-body">
+					<ul class="list-group">
+						<li class="list-group-item" id="PowerCondi"><a href="../products1.html">ONLINE UPS</a></li>
+						<li class="list-group-item" id="battery"><a href="../products/modularups.html"> MODULAR UPS</a></li>
+						<li class="list-group-item" id="Energy1"><a href="../products/linearInteractive.html"> LINE INTERACTIVE OUTDOORS UPS</a></li>
+						<li class="list-group-item" id="Electrical12"><a href="../products/servo.html">SERVO VOLTAGE STABILIZER</a></li>
+						<li class="list-group-item" id="PowerCondi"><a href="../products/isolation.html">ISOLATION TRANSFORMERS</a></li>
+						<li class="list-group-item" id="PowerCondi"><a href="../products/activeharmonic.html">ACTIVE HARMONIC FILTER</a></li>
+					  </ul>
+				</div>
+			  </div>
+			</div>
+  
+			<div class="card">
+			  <div class="card-header" id="headingTwo">
+				<h2 class="mb-0">									
+				  <a data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					<span><i class="fa fa-comments" style="opacity: -1;"></i> BATTERY</span>
+					<i class="fa fa-chevron-down toggle rotate"></i>
+				  </a>
+				</h2>
+			  </div>
+			  <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+				<div class="card-body">
+				  <ul class="list-group">										
+					<li class="list-group-item" id="CCTV"><a href="../battery.html">VRLA(VOLTAGE REULATED SEAL MAINTENANCE FREE BATTERY) BATTERIES</a></li>
+					<li class="list-group-item" id="Access"><a href="../products/tubular.html">TUBULAR</a></li>
+					<li class="list-group-item" id="HighSecurity"><a href="../products/lithium.html">LITHIUM BATTERIES</a></li>
+					<li class="list-group-item" id="Intrusion"><a href="../products/batterytesting.html">BATTERY TESTING & MONITORING</a></li>	
+				  </ul>
+				</div>
+			  </div>
+			</div>
+  
+			<div class="card">
+			  <div class="card-header" id="headingThree">
+				<h2 class="mb-0">									
+				  <a data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					<span><i class="fa fa-comments" style="opacity: -1;"></i> ENERGY OPTIMIZATION SOLUTION</span>
+					<i class="fa fa-chevron-down toggle rotate"></i>
+				  </a>
+				</h2>
+			  </div>
+			  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+				<div class="card-body">
+				  <ul class="list-group">										
+					<li class="list-group-item" id="CCTV"><a href="../products/solar.html">SOLAR</a></li>
+					<li class="list-group-item" id="Access"><a href="products/AccessControl.html">APFC PANEL</a></li>
+					<li class="list-group-item" id="HighSecurity"><a href="products/highsecurity.html">SURGE PROTECTION DEVICE</a></li>
+					<li class="list-group-item" id="Intrusion"><a href="products/intrusion.html">ENERGY MANAGEMENT SYSTEM</a></li>
+					<li class="list-group-item" id="Perimeter"><a href="products/perimeter.html">LIGHTING ENERGY SAVER</a></li>												
+				  </ul>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="card">
+			  <div class="card-header" id="headingFour">
+				<h2 class="mb-0"><a href="#"><i class="fa fa-power-off" style="opacity: -1;"></i>ELECTRICAL SOLUTIONS</a></h2>
+			  </div>
+			</div>
+  
+			<div class="card">
+			  <div class="card-header" id="headingFive">
+				<h2 class="mb-0">									
+				  <a data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+					<span><i class="fa fa-comments" style="opacity: -1;"></i> SECURITY</span>
+					<i class="fa fa-chevron-down toggle rotate"></i>
+				  </a>
+				</h2>
+			  </div>
+			  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+				<div class="card-body">
+				  <ul class="list-group">										
+					<li class="list-group-item" id="CCTV"><a href="products/cctv.html">CCTV Surveillance Systems</a></li>
+					<li class="list-group-item" id="Access"><a href="products/AccessControl.html">Access Control System</a></li>
+					<li class="list-group-item" id="HighSecurity"><a href="products/highsecurity.html">High Security Critical Access Control Solution SMACS FASTCOM</a></li>
+					<li class="list-group-item" id="Intrusion"><a href="products/intrusion.html">Intrusion Alarm Systems</a></li>
+					<li class="list-group-item" id="Perimeter"><a href="products/perimeter.html">Perimeter Protection system (Power Fence & beam detector)</a></li>										
+					<li class="list-group-item" id="EntraSecurity"><a href="products/entrancesec.html">Entrance Security</a></li>			
+					<li class="list-group-item" id="Infrastructure"><a href="products/ITInfra.html">IT Infrastructure (Data/Voice)</a></li>										
+					<li class="list-group-item" id="AvSystem"><a href="products/AvSys.html">AV Systems</a></li>
+					<li class="list-group-item" id="HomeAuto"><a href="products/HomeAutomation.html">Home Automation</a></li>			
+				  </ul>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="card">
+			  <div class="card-header" id="headingSix">
+				<h2 class="mb-0">									
+				  <a data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+					<span><i class="fa fa-comments" style="opacity: -1;"></i>DATA CENTER SOLUTIONS</span>
+					<i class="fa fa-chevron-down toggle" style="margin-bottom: 10px;"></i>
+				  </a>
+				</h2>
+			  </div>
+			  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+				<div class="card-body">
+				  <ul class="list-group">
+					<li class="list-group-item"><a href="products/Smartcloset.html">SMART CLOSET</a></li>
+					<li class="list-group-item"><a href="products/Micro.html">MICRO/SMART DATA CENTER/ROOM</a></li>
+					<li class="list-group-item"><a href="products/datacenterMonitoring.html">DATACENTER MONITORING AND MANAGEMENT</a></li>
+					<li class="list-group-item"><a href="products/datacenter.html">DATACENTER AUDITS</a></li>
+				  </ul>
+				</div>
+			  </div>
+			</div>
+		  </div>
+      </div>
+	  <div class="col-lg-9">
+      <h1 class="ml-2" style="font-weight: 500; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">SOLAR</h1>
+      <img src="../images/Solar panel/solar1.png" class="col-lg-4 mx-auto d-block">
+	  <h5 class="ml-2 mt-3" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; font-size: 17px;">
+		
+All solar power systems work on the same basic principles. Solar panels first convert solar energy or sunlight into DC power using what is known as the photovoltaic (PV) effect. The DC power can then be stored in a battery or converted by a solar inverter into AC power which can be used to run home appliances. Depending on the type of system, excess solar energy can either be fed into the electricity grid for credits, or stored in a variety of different battery storage systems.<br><br>
+Solar Energy Solutions from VICARE aims at reducing non-renewable energy usage and costs. We at VICARE possess an in-house team that is well versed in the end-to-end solutions that includes processes like designing, engineering, procurement, construction, after-sales maintenance, and monitoring. A large portion of the Solar energy comes from the Solar Panels installed on the house terraces and office buildings. This is a very efficient way of ensuring that natural resources are not depleted at an astronomical rate.
+	</h5>
+	<h2 class="ml-2 mt-2 mr-5" style="font-family: Arial, Helvetica, sans-serif; font-weight: 700;">Main Components Of a Solar System</h2>
+    <a class="btn mt-2 ml-2 btn-large " style="background-color: #55acee;" data-toggle="collapse" href="#collapseEx1" role="button" aria-expanded="false" aria-controls="collapse1">
+        <h4 class="mr-5" style=" font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: black;">1) Solar Panels <i class="fa fa-chevron-down toggle" style="color: #000000;"></i></h4>
+      </a>
+	</p>
+	<div class="collapse ml-2	" id="collapseEx1">
+	  <div class="card card-body">
+		<h4 class="ml-2 mt-2 mr-5" style="font-family: Arial, Helvetica, sans-serif; font-weight: 500;">1) Solar Panels</h4>  
+	<img src="../images/Solar panel/solar.png" class="img-fluid mx-auto d-block" alt="Responsive image">
+	<h5 class="ml-2 mt-3" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; font-size: 17px;">
+		Most modern solar panels are made up of many silicon based photovoltaic cells (PV cells) which generate direct current (DC) electricity from sunlight. The PV cells are linked together within the solar panel and connected to adjacent panels using cables. Note: It is sunlight or irradiance, not heat, which produces electricity in photovoltaic cells. Solar panels, also known as solar modules, are generally connected together in ‘strings’ to create a what is known as a solar array.<br><br>
+		The amount of solar energy generated depends on several factors including the orientation and tilt angle of the solar panels, efficiency of the solar panel, plus any losses due to shading, dirt and even ambient temperature. There are many different solar panel manufacturers on the market, so it worth knowing which are the best solar panels and why.
+	</h5>
+	<a class="btn mt-5 btn-block " style="background-color: #55acee;" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <h4 class="text-center" style=" font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: black;">Solar Panels <i class="fa fa-chevron-down toggle" style="color: #000000;"></i></h4>
+      </a>
+<div class="container d-flex justify-content-center mt-50 mb-50" >
+    <div class="row" id="collapse1">
+      <div class="col-md-4 mt-2">
+        <div class="card">
+            <div class="card-body">
+                <div class="card-img-actions"> <img src="../images/TUBULAR/150ah-new-instabrite1500-inveter-ups-battery-36-month-warranty-original-imafhfmyddstk2zf.jpeg" style="height: 250px; width: 370px;" class="card-img img-fluid" width="96" height="250" alt=""> </div>
+            </div>
+            <div class="card-body bg-light text-center">
+                <div class="mb-2">
+                    <a href="#" class="text-muted" data-abc="true">150ah-new-instabrite1500-inveter-ups-battery</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="col-md-4 mt-2">
+        <div class="card">
+            <div class="card-body">
+                <div class="card-img-actions"> <img src="../images/TUBULAR/Phoenix_TX1800_large.png" style="height: 273px; width: 370px;" class="card-img img-fluid" width="96" height="250" alt=""> </div>
+            </div>
+            <div class="card-body bg-light text-center">
+                <div class="mb-2">
+                    <a href="#" class="text-muted" data-abc="true">Phoenix_TX1800_large</a>
+                </div>
+               </div>
+        </div>
+    </div>
+    <div class="col-md-4 mt-2">
+        <div class="card">
+            <div class="card-body">
+                <div class="card-img-actions"> <img src="../images/TUBULAR/tubular.jpeg" style="height: 273px; width: 370px;" class="card-img img-fluid" width="96" height="250" alt=""> </div>
+            </div>
+            <div class="card-body bg-light text-center">
+                <div class="mb-2">
+                   <a href="#" class="text-muted" data-abc="true">Tubular</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    </div>
+</div>
+<h5 class="mt-3 ml-2 mb-5" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; font-size: 17px;">
+	Solar panels can generate energy during cloudy and overcast weather, but the amount of energy depends on the 'thickness' and height of the clouds, which determines how much light can pass through. The amount of light energy is known as solar irradiation and usually averaged over the whole day using the term Peak Sun Hours (PSH). The PSH or average daily sunlight hours depends mainly on the location and time of year.
+</h5>
+    	</div>
+	</div>
+	<a class="btn mt-2 ml-2 btn-large " style="background-color: #55acee;" data-toggle="collapse" href="#collapseEx2" role="button" aria-expanded="false" aria-controls="collapse1">
+        <h4 class="mr-5" style=" font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: black;">2) Solar Inverters <i class="fa fa-chevron-down toggle" style="color: #000000;"></i></h4>
+      </a>
+	<div class="collapse mt-2 ml-2" id="collapseEx2">
+		<div class="card card-body">
+			<h4 class="ml-2 mt-2 mr-5" style="font-family: Arial, Helvetica, sans-serif; font-weight: 500;"> </h4>  
+	<img src="../images/Solar panel/solar invertr1.png" class="img-fluid mx-auto d-block" alt="Responsive image">
+	<h5 class="mt-3 ml-2 mb-5" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; font-size: 17px;">
+		Solar panels generate DC electricity which must be converted to alternating current (AC) electricity for use in our homes and businesses. This is primary the role of the solar inverter. In a ‘string’ inverter system, the solar panels are linked together in series, and the DC electricity is brought to the inverter which converts the DC power to AC power. In a micro inverter system, each panel has its own micro-inverter attached to the rear side of the panel. The panel still produces DC, but is converted to AC on the roof and is fed straight to the electrical switchboard.<br><br>
+		There are also more advanced string inverter systems which use small power optimisers attached to back of each solar panel. Power optimisers are able to monitor and control each panel individually and ensure every panel is operating at maximum efficiency under all conditions.
+	</h5>
+	<a class="btn mt-5 btn-block " style="background-color: #55acee;" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <h4 class="text-center" style=" font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: black;">Solar Panels <i class="fa fa-chevron-down toggle" style="color: #000000;"></i></h4>
+      </a>
+<div class="container d-flex justify-content-center mt-50 mb-50" >
+    <div class="row" id="collapseExample2">
+      <div class="col-md-4 mt-2">
+        <div class="card">
+            <div class="card-body">
+                <div class="card-img-actions"> <img src="../images/TUBULAR/150ah-new-instabrite1500-inveter-ups-battery-36-month-warranty-original-imafhfmyddstk2zf.jpeg" style="height: 250px; width: 370px;" class="card-img img-fluid" width="96" height="250" alt=""> </div>
+            </div>
+            <div class="card-body bg-light text-center">
+                <div class="mb-2">
+                    <a href="#" class="text-muted" data-abc="true">150ah-new-instabrite1500-inveter-ups-battery</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="col-md-4 mt-2">
+        <div class="card">
+            <div class="card-body">
+                <div class="card-img-actions"> <img src="../images/TUBULAR/Phoenix_TX1800_large.png" style="height: 273px; width: 370px;" class="card-img img-fluid" width="96" height="250" alt=""> </div>
+            </div>
+            <div class="card-body bg-light text-center">
+                <div class="mb-2">
+                    <a href="#" class="text-muted" data-abc="true">Phoenix_TX1800_large</a>
+                </div>
+               </div>
+        </div>
+    </div>
+    <div class="col-md-4 mt-2">
+        <div class="card">
+            <div class="card-body">
+                <div class="card-img-actions"> <img src="../images/TUBULAR/tubular.jpeg" style="height: 273px; width: 370px;" class="card-img img-fluid" width="96" height="250" alt=""> </div>
+            </div>
+            <div class="card-body bg-light text-center">
+                <div class="mb-2">
+                   <a href="#" class="text-muted" data-abc="true">Tubular</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    </div>
+</div>
+<h5 class="mt-3 ml-2 mb-5" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; font-size: 17px;">
+	Solar panels can generate energy during cloudy and overcast weather, but the amount of energy depends on the 'thickness' and height of the clouds, which determines how much light can pass through. The amount of light energy is known as solar irradiation and usually averaged over the whole day using the term Peak Sun Hours (PSH). The PSH or average daily sunlight hours depends mainly on the location and time of year.
+</h5>
+		</div>
+	  </div>
+	  <div>
+	  <a class="btn mt-3 btn-large ml-2 mb-3" style="background-color: #55acee;" data-toggle="collapse" href="#collapseEx3" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <h4 class="text-center" style=" font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: black;">3) Batteries <i class="fa fa-chevron-down toggle" style="color: #000000;"></i></h4>
+      </a>
+	</div>
+	<div class="collapse" id="collapseEx3">
+		<div class="card card-body ml-2 mb-3">
+			<h4 class="ml-2 mt-2 mr-5" style="font-family: Arial, Helvetica, sans-serif; font-weight: 800;">Batteries </h4>  
+	<h5 class="mt-3 ml-2 mb-5" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; font-size: 17px;">
+		Batteries used for solar energy storage are available in two main types, lead-acid (AGM & Gel) and lithium-Ion. There are several other types available such as redox flow batteries and sodium-ion but we will focus on the most common two. Most modern energy storage systems use rechargeable lithium-ion batteries and are available in many shapes and sizes which can be configured in several ways 
+	</h5>
+	<a class="btn mt-5 btn-block " style="background-color: #55acee;" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <h4 class="text-center" style=" font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: black;">Solar Panels <i class="fa fa-chevron-down toggle" style="color: #000000;"></i></h4>
+      </a>
+<div class="container d-flex justify-content-center mt-50 mb-50" >
+    <div class="row" id="collapseExample3">
+      <div class="col-md-4 mt-2">
+        <div class="card">
+            <div class="card-body">
+                <div class="card-img-actions"> <img src="../images/TUBULAR/150ah-new-instabrite1500-inveter-ups-battery-36-month-warranty-original-imafhfmyddstk2zf.jpeg" style="height: 250px; width: 370px;" class="card-img img-fluid" width="96" height="250" alt=""> </div>
+            </div>
+            <div class="card-body bg-light text-center">
+                <div class="mb-2">
+                    <a href="#" class="text-muted" data-abc="true">150ah-new-instabrite1500-inveter-ups-battery</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="col-md-4 mt-2">
+        <div class="card">
+            <div class="card-body">
+                <div class="card-img-actions"> <img src="../images/TUBULAR/Phoenix_TX1800_large.png" style="height: 273px; width: 370px;" class="card-img img-fluid" width="96" height="250" alt=""> </div>
+            </div>
+            <div class="card-body bg-light text-center">
+                <div class="mb-2">
+                    <a href="#" class="text-muted" data-abc="true">Phoenix_TX1800_large</a>
+                </div>
+               </div>
+        </div>
+    </div>
+    <div class="col-md-4 mt-2">
+        <div class="card">
+            <div class="card-body">
+                <div class="card-img-actions"> <img src="../images/TUBULAR/tubular.jpeg" style="height: 273px; width: 370px;" class="card-img img-fluid" width="96" height="250" alt=""> </div>
+            </div>
+            <div class="card-body bg-light text-center">
+                <div class="mb-2">
+                   <a href="#" class="text-muted" data-abc="true">Tubular</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    </div>
+	</div>
+	<h5 class="mt-3 ml-2 mb-5" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; font-size: 17px;">
+		Battery capacity is generally measured is either Amp hours (Ah) for lead-acid, or kilowatt hours (kWh) for lithium-ion. However, not all of the capacity is available for use. Lithium-ion based batteries can typically supply up to 90% of their available capacity per day, while lead-acid batteries generally only supply 30% to 40% of their total capacity per day to increase battery life. Lead-acid batteries can be discharged fully, but this should only be done in emergency backup situations. 
+	</h5>
+	<img src="../images/Solar panel/batteries.png"  class="img-fluid mx-auto d-block" alt="Responsive image">
+		</div>
+	  </div>
+ 
+        </div>
+        </div>
+		</div>
+		
+		<script>
+			$(document).ready(function(){			
+			  // Toggle plus minus icon on show hide of collapse element
+			  $(".collapse").on('show.bs.collapse', function(){
+				$(this).parent(".card").find(".toggle").addClass("rotate");
+			  }).on('hide.bs.collapse', function(){
+				$(this).parent(".card").find(".toggle").removeClass("rotate");
+			  });
+			});
+			</script>
+	<!--Footer-->
+<footer class="deneb_footer">
+	<div class="widget_wrapper" style="background-image: url(http://demo.tortoizthemes.com/deneb-html/deneb-ltr/assets/images/footer_bg.png); background-color: #40bbfe	">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="widget widegt_about">
+						<div class="widget_title">
+							<img src="assets/images/logo_1.png" class="img-fluid" alt="">
+						</div>
+						<p>Almost everything worthwhile carries with it some sort of risk, whether it’s starting a new business, whether it’s leaving home, whether it’s getting married, or whether it’s flying into space</p>
+						<ul class="social">
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="widget widget_link">
+						<div class="widget_title">
+							<h4>Links</h4>
+						</div>
+						<ul>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Blog</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="widget widget_contact">
+						<div class="widget_title">
+							<h4>Contact Us</h4>
+						</div>
+						<div class="contact_info">
+							<div class="single_info">
+								<div class="icon">
+									<i class="fas fa-phone-alt"></i>
+								</div>
+								<div class="info">
+									<p><a href="tel:+919619016090">91 961-901-6090</a></p>
+									<!-- <p><a href="tel:+919246147999">+91 924-614-7999</a></p> -->
+								</div>
+							</div>
+							<div class="single_info">
+								<div class="icon">
+									<i class="fas fa-envelope"></i>
+								</div>
+								<div class="info">
+									<p><a href="mailto:sales.support@vicaretechs.com">sales.support@vicaretechs.com</a></p>
+									<!-- <p><a href="mailto:services@deneb.com">services@deneb.com</a></p> -->
+								</div>
+							</div>
+							<div class="single_info">
+								<div class="icon">
+									<i class="fas fa-map-marker-alt"></i>
+								</div>
+								<div class="info">
+									<p>Office No.1, Bhagsheth Building, Near G South BMC Office, J.B. Marg, Elphiston Road<span>Mumbai -400013</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+</body>
+</html>
